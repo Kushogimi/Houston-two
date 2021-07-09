@@ -1,0 +1,175 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Kurale', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Pattaya', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: chocolate;
+    font-size: 25px;
+}
+
+ol {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li:hover::before {
+    font-size: 25px;
+    content: '🌟';
+}
+
+ul {
+    font-family: 'Kurale', 'Times New Roman', Times, serif;
+    list-style-type: square;
+    font-size: 20px;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat Alternates', Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.title {
+    margin-top: auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    font-family: 'Literata', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+table:hover {
+    border: 3px dashed purple;
+}
+
+caption {
+    margin-bottom: 10px;
+}
+
+caption:hover {
+    color: coral;
+}
+
+th, td {
+    border: 2px solid;
+}
+
+th:hover, td:hover {
+    border-color: blueviolet;
+    color: cornflowerblue;
+}
+
+figcaption {
+    font-style: italic;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+figure {
+    border-left: 5px solid #eaecf0;
+    border-bottom: 15px solid #eaecf0 ;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f8f9fa;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+.img_one {
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.img_two {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.img_three {
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.img_four {
+    float: right;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.img_five {
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.img_six {
+    float: right;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.img_seven {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.img_eight {
+    float: right;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.img_nine {
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.img_ten {
+    float: right;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
